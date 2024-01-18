@@ -1,0 +1,67 @@
+<!-- 
+  Ali Shahsamand
+  12/1/2023
+  IT202-003
+  Unit 11 Assignment
+  as483@njit.edu
+                -->
+
+<html>
+             
+    <body>
+        <div id="error"></div>
+
+        <form action="Shipping.php">
+            <label for="firstname">First name: </label><br>
+            <input type="text" id="firstname" name="firstname" required><br>
+            <span id="firstnameError" class="error"></span><br>
+
+            <label for="lastname">Last name: </label><br>
+            <input type="text" id="lastname" name="lastname" required><br>
+            <span id="lastnameError" class="error"></span><br>
+
+            <label for="address">Address: </label><br>
+            <input type="text" id="address" name="address" required><br>
+            <span id="addressError" class="error"></span><br>
+
+            <label for="city">City: </label><br>
+            <input type="text" id="city" name="city" required><br>
+            <span id="cityError" class="error"></span><br>
+
+            <label for="state">State: </label><br>
+            <input type="text" id="state" name="state" required><br>
+            <span id="stateError" class="error"></span><br>
+
+            <label for="zip">Zip Code: </label><br>
+            <input type="text" id="zip" name="zip" required><br>
+            <span id="zipError" class="error"></span><br>
+
+            <label for="d1">Box Dimensions(Max of 36 inches): </label><br>
+            <input type="number" id="d1" name="d1" min="0" max="36" required><br>
+            <span id="d1Error" class="error"></span><br>
+
+            <label for="weight">Box Weight(Max of 150 pounds): </label><br>
+            <input type="number" id="weight" name="weight" min="0" max="150" required><br>
+            <span id="weightError" class="error"></span><br>
+
+            <label for="ordernumber">Order Number: </label><br>
+            <input type="text" id="ordernumber" name="ordernumber" required><br>
+            <span id="ordernumberError" class="error"></span><br>
+
+            <label for="date">Shipping Date: </label><br>
+            <input type="date" id="date" name="date" required><br>
+            <span id="dateError" class="error"></span><br>
+
+            <input type="submit" value="Submit">
+        
+            
+        </form>
+        <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" 
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" 
+        crossorigin="anonymous"></script>
+        
+        <script defer src="shipping_form.js"></script>
+        
+    </body>
+
+</html>

@@ -1,0 +1,42 @@
+/* 
+ 
+   
+  Ali Shahsamand
+  12/1/2023
+  IT202-003
+  Unit 11 Assignment
+  as483@njit.edu
+                
+            
+                */
+
+
+nav ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+nav ul li {
+	display: inline;
+}
+a {
+  padding: 10px;
+}
+td {
+    border: 1px solid black;
+    padding: 1em 2.5em 1em 2.5em;
+
+}
+form {
+    margin: .5em 0 1em;
+}
+form label {
+    width: 6em;
+    padding-right: 1em;
+    float: left;
+}
+br {
+    clear: left;
+}
+
+
+
